@@ -1,0 +1,910 @@
+* {
+    margin: 0px;
+}
+
+/*::-webkit-scrollbar {
+    width: 0.4vw;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    background-image: -webkit-linear-gradient(95deg, green, lightgreen, darkred, red, pink 98%, white 99%)
+}*/
+
+div#load_screen {
+    background: #000;
+    opacity: 1;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    width: 100%;
+    height: 1600px;
+}
+
+div#load_screen > div#loading {
+    font-family: monospace;
+    color: #FFF;
+    width: 400px;
+    margin: 200px auto;
+    font-size: 2vw;
+}
+
+#gif {
+    margin-left: 45vw;
+    margin-top: -40vh;
+}
+
+.main-header{
+    width:100%;
+    height:40px;
+    background:#000;
+    position:fixed;
+}
+
+.main-header-links{
+    width:1000px;
+    height:40px;
+    margin-left:165px;
+}
+
+.main-header-links ul li{
+    list-style:none;
+    float:left;
+    padding:0px 40px 0px 40px;
+    font-size:12px;
+}
+
+.main-header-links ul li a{
+    text-decoration:none;
+    color:white;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    line-height:44px;
+    font-family:skia;
+    transition:0.1s ease-in;
+}
+
+.apple-logo{
+    transition:0.1s ease-in;
+    float:left;
+    height:42px;
+    padding-top:1px;
+    padding-right:15px;
+}
+
+.search-logo{
+    transition:0.1s ease-in;
+    padding:0px 60px 0px 15px;
+}
+
+.bag-logo{
+    transition:0.1s ease-in;
+}
+
+.first-li-main-header, .apple-logo:hover, .bag-logo:hover, .search-logo:hover, .main-header-links ul li a:hover{
+    opacity:0.60;
+}
+
+
+/*main-header-end*/
+
+.header{
+    height:60px;
+    position:fixed;
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-top:40px;
+    width:100%;
+    border-bottom:1px solid;
+    border-color:rgb(239,239,239);
+}
+
+.header-links{
+    height:60px;
+    width:948px;
+    margin-left:200px;
+}
+
+.heading{
+    width:100%;
+    font-size:30px;
+    color:grey;
+    font-family:drugs;
+    height:60px;
+    line-height:58px;
+    letter-spacing:-1px;
+    word-spacing:1px;
+}
+
+.header-links ul{
+    height:60px;
+    float:right;
+    text-align:center;
+    margin-right:15px;
+}
+
+.header-links ul li{
+    float:left;
+    list-style:none;
+    padding:20px 10px 20px 10px;
+}
+
+.header-links ul li a{
+    text-decoration:none;
+    font-family:drugs;
+    font-size:15px;
+    padding:0px 0px 0px 0px;
+    color:#444;
+    letter-spacing:-1px;
+    word-spacing:3px;
+    transition:0.1s ease-in;
+    font-weight:100;
+}
+
+.header-links ul li a:hover{
+    color:blue;
+}
+
+.buy-link{
+    float:right;
+    padding:3px 9px 3px 9px;
+    border-radius:4px;
+    border:0.5px solid skyblue;
+    background-color:blueviolet;
+    color:white;
+    text-decoration:none;
+    margin-top:18px;
+    font-size:14px;
+    font-family:sans-serif;
+    letter-spacing:2px; 
+}
+
+.front-container{
+    height:768px;
+    background:white;
+    width:100%;
+}
+
+.inner-front-container{
+    height:768px;
+    width:948px;
+    margin-left:200px;
+    background:white;
+}
+
+.mac-mini-img{
+    margin-top:200px;
+    margin-left:210px;
+    height:170px;
+    width:500px;
+}
+
+.mac-mini-logo{
+    width:300px;
+    height:150px;
+    margin-left:320px;
+}
+
+.line-front-container{
+    font-family:drugs;
+    text-align:center;
+    font-size:45px;
+    color:#333;
+    line-height:10px;
+    word-spacing:-2px;
+    letter-spacing:-0.5px;
+    font-weight:300;
+}
+
+.content-front-container{
+    line-height:100px;
+    text-align:center;
+    font-family:drugs;
+    font-size:22px;
+    color:darkslategrey;
+}
+
+.para-front-container{
+    color:black;
+    text-align:center;
+    margin:0px 140px;
+    font-family:drugs;
+    font-size:16px;
+    line-height:30px;
+}
+
+.ray-bottom-front-container{
+    border-bottom:1.5px solid;
+    border-color:rgb(214,214,214);
+    height:60px;
+    width:948px;
+    margin-left:200px;
+}
+
+.second-container{
+    height:1215px;
+    background:white;
+    width:100%;
+}
+
+.inner-second-container{
+    height:1215px;
+    width:948px;
+    margin-left:200px;
+    background:white;
+}
+
+.imac-mac-mini-img{
+    margin:120px 70px;
+    width:800px;
+}
+
+.line-second-container{
+    font-size:32px;
+    color:#333;
+    line-height:45px;
+    width:710px;
+    font-family:drugs;
+    font-weight:700;
+    word-spacing:10px;
+    letter-spacing:2px;
+}
+
+.para-second-container{
+    color:black;
+    margin:30px 0px;
+    font-family:avenir;
+    font-size:19px;
+    line-height:25px;
+    width:850px;
+    word-spacing:1px;
+    letter-spacing:1.5px; 
+}
+
+
+
+
+
+
+.all-lrnmr-links{
+    text-decoration:none;
+}
+
+.all-lrnmr-links:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+.third-container{
+    height:1020px;
+    background:white;
+    width:100%;
+}
+
+.inner-third-container{
+    height:1020px;
+    width:948px;
+    margin-left:200px;
+    background:white;
+}
+
+.mac-mini-inhand{
+    margin:120px 70px;
+    width:800px;
+}
+
+.line-third-container{
+    font-size:40px;
+    color:#333;
+    line-height:45px;
+    width:400px;
+    font-family:drugs;
+    font-weight:700;
+    word-spacing:10px;
+    letter-spacing:2px;
+}
+
+.para-third-container{
+    color:black;
+    margin:30px 0px;
+    font-family:avenir;
+    font-size:17px;
+    line-height:25px;
+    width:830px;
+    word-spacing:1px;
+    letter-spacing:1.5px; 
+}
+
+
+
+
+
+
+
+.second-container{
+    height:1215px;
+    background:white;
+    width:100%;
+}
+
+.inner-second-container{
+    height:1215px;
+    width:948px;
+    margin-left:200px;
+    background:white;
+}
+
+.imac-mac-mini-img{
+    margin:120px 70px;
+    width:800px;
+}
+
+.line-second-container{
+    font-size:32px;
+    color:#333;
+    line-height:45px;
+    width:710px;
+    font-family:drugs;
+    font-weight:700;
+    word-spacing:10px;
+    letter-spacing:2px;
+}
+
+.para-second-container{
+    color:black;
+    margin:30px 0px;
+    font-family:avenir;
+    font-size:19px;
+    line-height:25px;
+    width:850px;
+    word-spacing:1px;
+    letter-spacing:1.5px; 
+}
+
+
+
+
+
+
+.all-lrnmr-links{
+    text-decoration:none;
+}
+
+.all-lrnmr-links:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+.fourth-container{
+    height:1200px;
+    background:white;
+    width:100%;
+}
+
+.inner-fourth-container{
+    height:1200px;
+    width:948px;
+    margin-left:200px;
+    background:white;
+}
+
+.finder-macmini{
+    margin:120px 70px;
+    width:800px;
+}
+
+.line-fourth-container{
+    font-size:35px;
+    color:#333;
+    line-height:45px;
+    width:710px;
+    font-family:drugs;
+    font-weight:700;
+    word-spacing:1.5px;
+    letter-spacing:0.5px;
+}
+
+.para-fourth-container{
+    color:black;
+    margin:30px 0px;
+    font-family:avenir;
+    font-size:17px;
+    line-height:25px;
+    width:830px;
+    word-spacing:1px;
+    letter-spacing:1.5px; 
+}
+
+
+
+
+
+
+
+
+.fifth-container{
+    height:770px;
+    background:white;
+    width:100%;
+}
+
+.inner-fifth-container{
+    height:770px;
+    width:948px;
+    margin-left:200px;
+    background:white;
+}
+
+.launchpad-macmini{
+    margin:90px 0px;
+    width:900px;
+}
+
+.line-fifth-container{
+    font-size:35px;
+    color:#333;
+    line-height:45px;
+    width:710px;
+    font-family:drugs;
+    font-weight:700;
+    word-spacing:1.5px;
+    letter-spacing:0.5px;
+}
+
+.para-fifth-container{
+    color:black;
+    margin:30px 0px;
+    font-family:avenir;
+    font-size:17px;
+    line-height:25px;
+    width:830px;
+    word-spacing:1px;
+    letter-spacing:1.5px; 
+}
+
+
+
+
+
+
+.footer-container{
+    height:906px;
+    background:rgb(242, 242, 242);
+}
+
+.buy-link-content{
+    height:200px;
+    width:948px;
+    margin-left:200px;
+}
+
+.mac-mini-buy-link-image{
+    height:60px;
+    padding:70px 0px;
+    float:left;
+    margin-left:230px;
+}
+
+.footer-buy-link{
+    text-decoration: none;
+}
+
+.heading-sec{
+    width:130px;
+    font-size:30px;
+    color:grey;
+    font-family:drugs;
+    height:60px;
+    line-height:58px;
+    letter-spacing:-1px;
+    word-spacing:3px;
+    margin:0px 470px;
+}
+
+.buy-link-mac-mini{
+    display:inline-block;
+    font-size:20px;
+    color:#333;
+    font-family:alegreya sans sc;
+    letter-spacing:-1px;
+    word-spacing:3px;
+    margin:0px 40px;
+}
+
+.compare-link{
+    
+}
+
+.mobile-main-header-links{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:450px) {
+    
+    .main-header-links ul li{
+        display:none;
+    }
+    
+    .main-header{
+        height:30px;
+        background:#000;
+        position:fixed;
+    }
+
+    .main-header-links{
+        width:200px;
+        height:30px;
+        margin-left:0px;
+        float:left;
+    }
+
+    .apple-logo{
+        height:32px;
+        padding-top:0px;
+        padding-right:15px;
+    }
+
+    .search-logo{
+        transition:0.1s ease-in;
+        padding:0px 30px 0px 15px;
+        height:34px;
+        margin-top:-20px;
+    }
+
+    .bag-logo{
+        transition:0.1s ease-in;
+        height:32px;
+    }
+    
+    .mobile-main-header-links{
+        display:block;
+    }
+    
+    .mobile-main-header-links ul{
+        width:100%;
+        margin-left:-390px;
+        position:fixed; 
+        margin-top:10px;
+        text-align:center;
+        background:black;
+    }
+    
+    .mobile-main-header-links ul li{
+        display:none;
+        padding:20px 0px;
+    }
+    
+    .mobile-main-header-links ul li a{
+        color:white;
+        text-decoration:none;
+    }
+    
+    .mobile-main-header-links p{
+        height:2px;
+        background-color:white; 
+        width:20px;
+        margin-top:6px;
+        transition:0.5s ease-in;
+    }
+    
+    .menu-btn:hover:hover > .cross-line-one{
+        transform:skewY(-300deg);
+    }
+    
+    .menu-btn:hover:hover > .cross-line-two{
+        transform:skewY(300deg);
+    }
+    
+    .menu-btn{
+        width:25px;
+        margin-left:350px;
+        margin-top:0px;
+        height:23px;
+        padding:4px 10px;
+    }
+    
+    .menu-btn:hover{
+        cursor:pointer; 
+    }
+    
+    .menu-btn:hover > ul li{
+        display:block;
+    }
+    
+    .header{
+        display:none;
+    }
+    
+    
+    
+    
+    .front-container{
+        height:500px;
+        width:100%;
+    }
+
+    .inner-front-container{
+        height:500px;
+        width:400px;
+        margin-left:20px;
+    }
+
+    .mac-mini-img{
+        margin-top:100px;
+        margin-left:100px;
+        height:70px;
+        width:200px;
+    }
+
+    .mac-mini-logo{
+        width:150px;
+        height:75px;
+        margin-left:130px;
+    }
+
+    .line-front-container{
+        font-size:25px;
+    }
+
+    .content-front-container{
+        line-height:70px;
+        font-size:17px;
+    }
+
+    .para-front-container{
+        margin:0px 70px;
+        font-size:12px;
+    }
+
+    .ray-bottom-front-container{
+        height:10px;
+        width:80%;
+        margin-left:50px;
+    }
+    
+    
+    
+    
+    .second-container{
+        height:765px;
+        width:100%;
+    }
+
+    .inner-second-container{
+        height:765px;
+        width:400px;
+        margin-left:20px;
+    }
+
+    .imac-mac-mini-img{
+        margin:60px 50px;
+        width:300px;
+    }
+
+    .line-second-container{
+        font-size:20px;
+        line-height:30px;
+        width:400px;
+        text-align:center; 
+    }
+
+    .para-second-container{
+        margin:30px 0px;
+        font-size:13px;
+        line-height:25px;
+        width:400px;
+        text-align:center; 
+    }
+    
+    
+    
+    
+    
+    .third-container{
+        height:630px;
+        width:100%;
+    }
+
+    .inner-third-container{
+        height:630px;
+        width:400px;
+        margin-left:20px;
+    }
+
+    .mac-mini-inhand{
+        margin:60px 55px;
+        width:300px;
+    }
+
+    .line-third-container{
+        font-size:30px;
+        text-align:center; 
+    }
+
+    .para-third-container{
+        margin:20px 0px;
+        font-size:14px;
+        line-height:22px;
+        width:400px;
+        text-align:center; 
+    }
+
+    
+    
+    
+    
+    .fourth-container{
+        height:710px;
+    }
+
+    .inner-fourth-container{
+        height:710px;
+        width:400px;
+        margin-left:20px;
+    }
+
+    .finder-macmini{
+        margin:60px 55px;
+        width:300px;
+    }
+
+    .line-fourth-container{
+        font-size:25px;
+        line-height:35px;
+        width:400px;
+        text-align:center; 
+    }
+
+    .para-fourth-container{
+        margin:30px 0px;
+        font-size:13px;
+        line-height:22px;
+        width:400px;
+        text-align:center; 
+    }
+
+    
+   
+    
+    .fifth-container{
+        height:500px;
+    }
+
+    .inner-fifth-container{
+        height:500px;
+        width:400px;
+        margin-left:20px;
+    }
+
+    .launchpad-macmini{
+        margin:60px 50px;
+        width:300px;
+    }
+
+    .line-fifth-container{
+        font-size:25px;
+        line-height:35px;
+        width:400px;
+        text-align:center; 
+    }
+
+    .para-fifth-container{
+        margin:30px 0px;
+        font-size:13px;
+        line-height:22px;
+        width:400px;
+        text-align:center; 
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1367px) {
+    
+    
+    
+    .main-header-links{
+        margin-left:210px;
+    }
+
+    .header-links{
+        margin-left:230px;
+    }
+
+    .inner-front-container{
+        margin-left:230px;
+    }
+
+    .inner-second-container{
+        margin-left:230px;
+    }
+    .inner-third-container{
+        margin-left:230px;
+    }
+
+    .inner-fourth-container{
+        margin-left:230px;
+    }
+
+    .inner-fifth-container{
+        margin-left:230px;
+    }
+
+        
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
